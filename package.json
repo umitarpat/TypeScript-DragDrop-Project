@@ -8,8 +8,7 @@
     "start": "lite-server"
   },
   "keywords": [
-    "typescript",
-    "course"
+    "typescript"
   ],
   "author": "Ümit Arpat",
   "license": "ISC",
