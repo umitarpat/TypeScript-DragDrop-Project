@@ -129,7 +129,7 @@ class ProjectItem extends Component {
         event.dataTransfer.effectAllowed = "move";
     }
     dragEndHandler(_) {
-        console.log('DragEnd');
+        console.log("DragEnd");
     }
     configure() {
         this.element.addEventListener("dragstart", this.dragStartHandler);

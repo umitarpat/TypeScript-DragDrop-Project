@@ -193,7 +193,7 @@ class ProjectItem
   }
 
   dragEndHandler(_: DragEvent) {
-    console.log('DragEnd');
+    console.log("DragEnd");
   }
 
   configure() {
@@ -237,7 +237,7 @@ class ProjectList
     projectState.moveProject(
       prjId,
       this.type === "active" ? ProjectStatus.Active : ProjectStatus.Finished
-    );  
+    );
   }
 
   @autobind
